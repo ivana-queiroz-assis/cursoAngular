@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html ng-app="loja"> 
 <head>
-<meta http-equiv="Contet-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <script src="resources/script/angular.min.js"></script>
 <script src="resources/script/indexController.js"></script>
 </head>
 <body ng-controller="indexController as user" id="corpo">
-	<input type="text" ng-model="user.nome">
-	<br/>
-	<input type="text" ng-model="user.sobreNome">
-	<br/>
-	<h1>Olá:{{user.nome}} </h1>
-	<h1>Olá:{{user.sobreNome}} </h1>
+	
+	<h1>Deep Link</h1>
+	<div ng-view >
+		
+	</div>
 </body>
 </html>
